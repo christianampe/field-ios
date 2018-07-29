@@ -28,7 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1D3897D3E824790A78476BF9 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		1D3897D3E824790A78476BF9 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		2CF9B1D9EBEC9A92C4C4974C /* Pods-FlatField_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlatField_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FlatField_Example/Pods-FlatField_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		30A115835CA2A5E9D77730BB /* Pods_FlatField_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FlatField_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD01AFB9204008FA782 /* FlatField_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlatField_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -41,11 +41,11 @@
 		607FACE51AFB9204008FA782 /* FlatField_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlatField_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		6E7920A0A184D143B2653ED8 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		6E7920A0A184D143B2653ED8 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		A89CDF4D27C60A0AA6F602AD /* Pods_FlatField_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FlatField_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D79D96F6A22796A550E3DB6A /* Pods-FlatField_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlatField_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FlatField_Tests/Pods-FlatField_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		DE3A81BA8B5EDDDE785AA908 /* Pods-FlatField_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlatField_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-FlatField_Example/Pods-FlatField_Example.release.xcconfig"; sourceTree = "<group>"; };
-		F4EE987037F6A8D445269965 /* FlatField.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = FlatField.podspec; path = ../FlatField.podspec; sourceTree = "<group>"; };
+		F4EE987037F6A8D445269965 /* FlatField.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = FlatField.podspec; path = ../FlatField.podspec; sourceTree = "<group>"; };
 		F89732FCC782E798F5F7F050 /* Pods-FlatField_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlatField_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FlatField_Tests/Pods-FlatField_Tests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
