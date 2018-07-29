@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'FlatField_Example' do
+  pod 'FlatField', :path => '../'
+
+  target 'FlatField_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
