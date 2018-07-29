@@ -1,0 +1,16 @@
+PODS:
+  - FlatField (0.1.0)
+
+DEPENDENCIES:
+  - FlatField (from `../`)
+
+EXTERNAL SOURCES:
+  FlatField:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FlatField: 7092c2ecd42eda4fb1b58d539d6a88710df08580
+
+PODFILE CHECKSUM: a0518c9f9e85765885554f4bc307cbba51fe7f9a
+
+COCOAPODS: 1.5.0

@@ -1,0 +1,22 @@
+{
+  "name": "FlatField",
+  "version": "0.1.0",
+  "summary": "A short description of FlatField.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/ampechristian/FlatField",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "ampechristian": "christianampe.work@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/ampechristian/FlatField.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "FlatField/Classes/**/*"
+}

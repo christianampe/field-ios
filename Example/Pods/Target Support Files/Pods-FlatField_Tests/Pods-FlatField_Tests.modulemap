@@ -1,0 +1,6 @@
+framework module Pods_FlatField_Tests {
+  umbrella header "Pods-FlatField_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
