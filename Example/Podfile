@@ -1,13 +1,13 @@
 use_frameworks!
 
 target 'FlatField_Example' do
-  pod 'FlatField', :path => '../'
-
-  target 'FlatField_Tests' do
-    inherit! :search_paths
-
+    platform :ios
+    pod 'FlatField', :path => '../'
     
-  end
+    target 'FlatField_Tests' do
+        inherit! :search_paths
+        
+    end
 end
 
 post_install do |installer|

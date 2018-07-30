@@ -2,7 +2,6 @@
   "name": "FlatField",
   "version": "0.0.1",
   "summary": "A short description of FlatField.",
-  "swift_version": "4.1",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/educrate/flat-field-ios",
   "license": {
@@ -19,5 +18,6 @@
   "platforms": {
     "ios": "9.3"
   },
+  "swift_version": "4.1",
   "source_files": "FlatField/Classes/**/*"
 }
