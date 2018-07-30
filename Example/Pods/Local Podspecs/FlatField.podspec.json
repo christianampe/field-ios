@@ -1,8 +1,8 @@
 {
   "name": "FlatField",
   "version": "0.0.1",
-  "summary": "A short description of FlatField.",
-  "description": "A flat text input field",
+  "summary": "A flat text input field for iOS.",
+  "description": "A flat text input field for iOS useful for those who want a sleeker-looking input field.",
   "homepage": "https://github.com/educrate/flat-field-ios",
   "license": {
     "type": "MIT",
