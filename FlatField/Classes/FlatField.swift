@@ -9,7 +9,7 @@ import UIKit
 
 // MARK: - Properties
 @IBDesignable
-open class FlatField: UIView {
+public class FlatField: UIView {
     
     // MARK: Views
     weak var textField: UITextField!
@@ -80,6 +80,15 @@ open class FlatField: UIView {
     
     @IBInspectable
     open var thicknessChange: CGFloat = FlatFieldConfig.default.thicknessChange
+    
+    // MARK: Required Initalizers
+    public convenience init() {
+        self.init(frame: CGRect.zero)
+    }
+    
+    public override convenience init(frame: CGRect) {
+        self.init(frame, config: FlatFieldConfig.default, delegate: nil)
+    }
     
     // MARK: Programmatic Initalizer
     public init(_ frame: CGRect,
