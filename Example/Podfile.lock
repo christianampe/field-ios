@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  FlatField: ce171a6cae701ec0b836f99dc45b87ea643ddfa5
+  FlatField: 1b02ecab7ead749110099e6e4e075a845b5269c3
 
 PODFILE CHECKSUM: aac943e360d9077a97cfc4ffcc88899b4982eda5
 
