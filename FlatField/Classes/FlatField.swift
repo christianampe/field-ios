@@ -72,6 +72,7 @@ public class FlatField: UIView {
         didSet {
             guard let alignment = NSTextAlignment(rawValue: textAlignment) else {
                 assert(false, "use a valid alignment mapping integer (0-4)")
+                return
             }
             
             textField.textAlignment = alignment
