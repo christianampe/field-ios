@@ -16,7 +16,7 @@ public class FlatField: UIView {
     weak var underline: UIView!
     
     // MARK: Properties
-    private weak var underlineHeightConstraint: NSLayoutConstraint!
+    open weak var underlineHeightConstraint: NSLayoutConstraint!
     
     // MARK: IBInspectables
     @IBInspectable
