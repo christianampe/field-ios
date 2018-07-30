@@ -1,5 +1,5 @@
 PODS:
-  - FlatField (0.1.0)
+  - FlatField (0.0.1)
 
 DEPENDENCIES:
   - FlatField (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  FlatField: 14a8387923281f05251bb2fa1f017c0c95842f88
+  FlatField: ce171a6cae701ec0b836f99dc45b87ea643ddfa5
 
 PODFILE CHECKSUM: aac943e360d9077a97cfc4ffcc88899b4982eda5
 
