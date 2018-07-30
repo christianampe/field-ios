@@ -7,18 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0E98210EBDE333AA754C53E2F1477B84 /* FlatField-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5ADA11867A8DA1D5185ADADD70405D54 /* FlatField-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		12D4F115A9540CC5FDC339DE72769F11 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		26241DB2B403D7F7EFCA9D99B0A8D26A /* FlatFieldConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 777E32FBF92739EA0B816A916F3FE2BA /* FlatFieldConfig.swift */; };
 		38FAECF66D932C153BC74C11696735BC /* Pods-FlatField_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 13F90FCD5FCC9B89B1C58C6138333F1C /* Pods-FlatField_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		409E93A451B3E51138865A9EBAC06A87 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		45A0B918D24FBA35DA92720E9866B550 /* Pods-FlatField_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F9233B5806E617EC3A5AACD749F30F54 /* Pods-FlatField_Example-dummy.m */; };
+		532BDF1595F4931CD016458FB2F2FB43 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		69458D3BBF8088278C649A717D1559D4 /* Pods-FlatField_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 38DBC8824C0E909997D691E350D18D3D /* Pods-FlatField_Tests-dummy.m */; };
 		8378C15574B34F782F9174C86A5382DD /* Pods-FlatField_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 023266BF78981093677842A7B4733CA7 /* Pods-FlatField_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BE073CA7FB5A02374EFE0174ED518DEA /* FlatField-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7439FBDEDE868723C75436FB75EEE273 /* FlatField-dummy.m */; };
-		BFAADE85210E8A95009702C0 /* FlatField.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFAADE82210E8A95009702C0 /* FlatField.swift */; };
-		BFAADE86210E8A95009702C0 /* FlatFieldDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFAADE83210E8A95009702C0 /* FlatFieldDelegate.swift */; };
-		BFAADE87210E8A95009702C0 /* FlatFieldConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFAADE84210E8A95009702C0 /* FlatFieldConfig.swift */; };
+		8A8E73BB131CDFE97617056B296EBB64 /* FlatFieldDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E0732CF73FD28E2610FBF13B28DF609 /* FlatFieldDelegate.swift */; };
+		ACDCC7F7C8276184EDBEE1B0D5FC677C /* FlatField-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 80C0C551BC4551E0A5F29A1C0CC7D401 /* FlatField-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C20968AC49DCBDF12155701A9C10B87D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		E8528545809B4CA77EE5DE23A456C5B1 /* FlatField-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A6258B9390CCE247CC6AF0FA2ED16EE6 /* FlatField-dummy.m */; };
+		FCA1247E8AFB1C0A7A81B1238A99878E /* FlatField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 578CCD4FF0ABADD6CAA348BA0D849F87 /* FlatField.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,16 +33,16 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 312D2847A66D0361687C3EFF018A7615;
+			remoteGlobalIDString = 8BB5823170E76BBDF9700A0E3A907633;
 			remoteInfo = FlatField;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		01917CAB3C387F4D7CFF6C696C90A326 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		023266BF78981093677842A7B4733CA7 /* Pods-FlatField_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FlatField_Tests-umbrella.h"; sourceTree = "<group>"; };
 		046767BC927DD8731B830BBB47701CD3 /* Pods-FlatField_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FlatField_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		05CD252B2FBE7890EC5785C4704929E3 /* Pods_FlatField_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FlatField_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		0B127DA136D6EFEDBA331593B7239524 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		05CD252B2FBE7890EC5785C4704929E3 /* Pods_FlatField_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_FlatField_Tests.framework; path = "Pods-FlatField_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		10E1F8174BA38BD55B5E239486F587EC /* Pods-FlatField_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FlatField_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		13F90FCD5FCC9B89B1C58C6138333F1C /* Pods-FlatField_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FlatField_Example-umbrella.h"; sourceTree = "<group>"; };
 		158AC48FE234E104800200CE8CE1A880 /* Pods-FlatField_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FlatField_Tests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -51,39 +51,39 @@
 		2BF2CDE83DD3C7EB5222D490F6B13CD9 /* Pods-FlatField_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FlatField_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		365217D3828CA2EEEEB6AE3EEE21696C /* Pods-FlatField_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FlatField_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		38DBC8824C0E909997D691E350D18D3D /* Pods-FlatField_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FlatField_Tests-dummy.m"; sourceTree = "<group>"; };
+		3964234525E0CDBAA7A2815C7C7AF6C8 /* FlatField.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = FlatField.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		3F4EB6AC600429176314F52CCE1F240E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		40424E667BD21B6CD7EB522F2E6FE628 /* FlatField.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FlatField.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		40424E667BD21B6CD7EB522F2E6FE628 /* FlatField.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FlatField.framework; path = FlatField.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		578CCD4FF0ABADD6CAA348BA0D849F87 /* FlatField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FlatField.swift; path = FlatField/Classes/FlatField.swift; sourceTree = "<group>"; };
 		57D0D73F55A4C3CC66127FAB8DB57FED /* Pods-FlatField_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FlatField_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		5ADA11867A8DA1D5185ADADD70405D54 /* FlatField-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FlatField-umbrella.h"; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		6731F54D1B3B40F056BD06EBE86022C6 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		698019CD202AAF77C0EC7F459DE6F365 /* Pods-FlatField_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FlatField_Tests-resources.sh"; sourceTree = "<group>"; };
-		7439FBDEDE868723C75436FB75EEE273 /* FlatField-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FlatField-dummy.m"; sourceTree = "<group>"; };
 		745ADD37F28FD0030091FA4FB9D212DF /* Pods-FlatField_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FlatField_Example-frameworks.sh"; sourceTree = "<group>"; };
-		8BB15D8E49B97B56672A737716AA7D31 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		901886597E03C929F2493B8126325A77 /* FlatField-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FlatField-prefix.pch"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		777E32FBF92739EA0B816A916F3FE2BA /* FlatFieldConfig.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FlatFieldConfig.swift; path = FlatField/Classes/FlatFieldConfig.swift; sourceTree = "<group>"; };
+		80C0C551BC4551E0A5F29A1C0CC7D401 /* FlatField-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FlatField-umbrella.h"; sourceTree = "<group>"; };
+		8D90CD3214BAC41787403612BE7BD122 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		8E0732CF73FD28E2610FBF13B28DF609 /* FlatFieldDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FlatFieldDelegate.swift; path = FlatField/Classes/FlatFieldDelegate.swift; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		96A96974E3B49B9ABC04614BC151E6DA /* Pods-FlatField_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FlatField_Example.release.xcconfig"; sourceTree = "<group>"; };
 		9A98D2B57AD39754F9AF8C58B7991BF5 /* Pods-FlatField_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FlatField_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		A5EB8AB132E241B3D062B26D37EF29CF /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B2C72390720002A45BE45158E7EE0C91 /* FlatField.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FlatField.xcconfig; sourceTree = "<group>"; };
-		B66240DD0BC2D4FF482C4899B6CB2931 /* FlatField.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FlatField.modulemap; sourceTree = "<group>"; };
-		BFAADE82210E8A95009702C0 /* FlatField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlatField.swift; sourceTree = "<group>"; };
-		BFAADE83210E8A95009702C0 /* FlatFieldDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlatFieldDelegate.swift; sourceTree = "<group>"; };
-		BFAADE84210E8A95009702C0 /* FlatFieldConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlatFieldConfig.swift; sourceTree = "<group>"; };
+		A13E46993C60FE4596EB429F0786DA4B /* FlatField.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FlatField.xcconfig; sourceTree = "<group>"; };
+		A6258B9390CCE247CC6AF0FA2ED16EE6 /* FlatField-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FlatField-dummy.m"; sourceTree = "<group>"; };
+		ACC30DC4EA4641739271537E5557E601 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C1520FCEDE44A47685D40EF0C0E42E1D /* Pods-FlatField_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FlatField_Tests.modulemap"; sourceTree = "<group>"; };
-		C8A8CEF319FFECAC46EAA801266338D8 /* Pods_FlatField_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FlatField_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F6A6D183A2E3EA91F5DD2017999B9E83 /* FlatField.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = FlatField.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C8A8CEF319FFECAC46EAA801266338D8 /* Pods_FlatField_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_FlatField_Example.framework; path = "Pods-FlatField_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE00C8DE42E9C66AF216821DEE71E36F /* FlatField-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FlatField-prefix.pch"; sourceTree = "<group>"; };
+		DEBF7700A962A9F77ECFF781CEEC1F05 /* FlatField.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FlatField.modulemap; sourceTree = "<group>"; };
 		F9233B5806E617EC3A5AACD749F30F54 /* Pods-FlatField_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FlatField_Example-dummy.m"; sourceTree = "<group>"; };
 		FFA1CF970C01E5B57C3D3DE8875DEAAF /* Pods-FlatField_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FlatField_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		0C170DFFEE144FA08912329126BA5CFC /* Frameworks */ = {
+		43E57B80494B79C86E3E944A85DD0158 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				409E93A451B3E51138865A9EBAC06A87 /* Foundation.framework in Frameworks */,
+				532BDF1595F4931CD016458FB2F2FB43 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -106,17 +106,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		553844A10806BA1E87A6371427267B31 /* FlatField */ = {
+		117A12F024F3464D21E8DBCB24399F05 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				BFAADE82210E8A95009702C0 /* FlatField.swift */,
-				BFAADE84210E8A95009702C0 /* FlatFieldConfig.swift */,
-				BFAADE83210E8A95009702C0 /* FlatFieldDelegate.swift */,
-				745F50A4F9328F39B67D5B21AAB0F01A /* Pod */,
-				9786632630D5D17CB3571E426F4E5AC0 /* Support Files */,
+				3964234525E0CDBAA7A2815C7C7AF6C8 /* FlatField.podspec */,
+				8D90CD3214BAC41787403612BE7BD122 /* LICENSE */,
+				01917CAB3C387F4D7CFF6C696C90A326 /* README.md */,
 			);
-			name = FlatField;
-			path = ../..;
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		2CA5C6B4D879D3FF5CE97D77FAA42DEE /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B442D5158177A1B92E3793A7BC219F76 /* FlatField */,
+			);
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		6E0101BCD66614DEBCEC944FB4671DD8 /* Pods-FlatField_Tests */ = {
@@ -135,16 +140,6 @@
 			);
 			name = "Pods-FlatField_Tests";
 			path = "Target Support Files/Pods-FlatField_Tests";
-			sourceTree = "<group>";
-		};
-		745F50A4F9328F39B67D5B21AAB0F01A /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				F6A6D183A2E3EA91F5DD2017999B9E83 /* FlatField.podspec */,
-				8BB15D8E49B97B56672A737716AA7D31 /* LICENSE */,
-				0B127DA136D6EFEDBA331593B7239524 /* README.md */,
-			);
-			name = Pod;
 			sourceTree = "<group>";
 		};
 		77E137121BCEA905C3DE4318DB9A3D75 /* Pods-FlatField_Example */ = {
@@ -169,7 +164,7 @@
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				939487715D4CB79C776F5D5F2F1F331C /* Development Pods */,
+				2CA5C6B4D879D3FF5CE97D77FAA42DEE /* Development Pods */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
 				8482329AFC8E3A9970B73DD0A14BB995 /* Products */,
 				F25B0B7D21CB7F2F5CABEAD3FE0B5A42 /* Targets Support Files */,
@@ -186,26 +181,31 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		939487715D4CB79C776F5D5F2F1F331C /* Development Pods */ = {
+		8CC205CEE6A1732CB0167D181C3DC0D4 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				553844A10806BA1E87A6371427267B31 /* FlatField */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		9786632630D5D17CB3571E426F4E5AC0 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				B66240DD0BC2D4FF482C4899B6CB2931 /* FlatField.modulemap */,
-				B2C72390720002A45BE45158E7EE0C91 /* FlatField.xcconfig */,
-				7439FBDEDE868723C75436FB75EEE273 /* FlatField-dummy.m */,
-				901886597E03C929F2493B8126325A77 /* FlatField-prefix.pch */,
-				5ADA11867A8DA1D5185ADADD70405D54 /* FlatField-umbrella.h */,
-				A5EB8AB132E241B3D062B26D37EF29CF /* Info.plist */,
+				DEBF7700A962A9F77ECFF781CEEC1F05 /* FlatField.modulemap */,
+				A13E46993C60FE4596EB429F0786DA4B /* FlatField.xcconfig */,
+				A6258B9390CCE247CC6AF0FA2ED16EE6 /* FlatField-dummy.m */,
+				CE00C8DE42E9C66AF216821DEE71E36F /* FlatField-prefix.pch */,
+				80C0C551BC4551E0A5F29A1C0CC7D401 /* FlatField-umbrella.h */,
+				ACC30DC4EA4641739271537E5557E601 /* Info.plist */,
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/FlatField";
+			sourceTree = "<group>";
+		};
+		B442D5158177A1B92E3793A7BC219F76 /* FlatField */ = {
+			isa = PBXGroup;
+			children = (
+				578CCD4FF0ABADD6CAA348BA0D849F87 /* FlatField.swift */,
+				777E32FBF92739EA0B816A916F3FE2BA /* FlatFieldConfig.swift */,
+				8E0732CF73FD28E2610FBF13B28DF609 /* FlatFieldDelegate.swift */,
+				117A12F024F3464D21E8DBCB24399F05 /* Pod */,
+				8CC205CEE6A1732CB0167D181C3DC0D4 /* Support Files */,
+			);
+			name = FlatField;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
@@ -252,34 +252,17 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9393733EA88FFDF307025B5735D96E48 /* Headers */ = {
+		DAAC85A857D69C1F1BEA51F32C39ABFF /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0E98210EBDE333AA754C53E2F1477B84 /* FlatField-umbrella.h in Headers */,
+				ACDCC7F7C8276184EDBEE1B0D5FC677C /* FlatField-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		312D2847A66D0361687C3EFF018A7615 /* FlatField */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 620C5D562E2DC5CFA526E0F5F9009103 /* Build configuration list for PBXNativeTarget "FlatField" */;
-			buildPhases = (
-				56A2FCBD100EBA6C60DAA876566C897D /* Sources */,
-				0C170DFFEE144FA08912329126BA5CFC /* Frameworks */,
-				9393733EA88FFDF307025B5735D96E48 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = FlatField;
-			productName = FlatField;
-			productReference = 40424E667BD21B6CD7EB522F2E6FE628 /* FlatField.framework */;
-			productType = "com.apple.product-type.framework";
-		};
 		542F697931F8F88FACA9265A6009D63D /* Pods-FlatField_Tests */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 13531EF8491B9FF3B5945BAB6C08C888 /* Build configuration list for PBXNativeTarget "Pods-FlatField_Tests" */;
@@ -296,6 +279,23 @@
 			name = "Pods-FlatField_Tests";
 			productName = "Pods-FlatField_Tests";
 			productReference = 05CD252B2FBE7890EC5785C4704929E3 /* Pods_FlatField_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		8BB5823170E76BBDF9700A0E3A907633 /* FlatField */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 350FF36D8BCC702DE9286DD810B22F36 /* Build configuration list for PBXNativeTarget "FlatField" */;
+			buildPhases = (
+				F9A53FEFD25362B93F48D6A14FFF36F6 /* Sources */,
+				43E57B80494B79C86E3E944A85DD0158 /* Frameworks */,
+				DAAC85A857D69C1F1BEA51F32C39ABFF /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FlatField;
+			productName = FlatField;
+			productReference = 40424E667BD21B6CD7EB522F2E6FE628 /* FlatField.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		C45FE26B912670DFCD5A8A36FCEE3F40 /* Pods-FlatField_Example */ = {
@@ -337,7 +337,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				312D2847A66D0361687C3EFF018A7615 /* FlatField */,
+				8BB5823170E76BBDF9700A0E3A907633 /* FlatField */,
 				C45FE26B912670DFCD5A8A36FCEE3F40 /* Pods-FlatField_Example */,
 				542F697931F8F88FACA9265A6009D63D /* Pods-FlatField_Tests */,
 			);
@@ -353,22 +353,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		56A2FCBD100EBA6C60DAA876566C897D /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				BFAADE86210E8A95009702C0 /* FlatFieldDelegate.swift in Sources */,
-				BE073CA7FB5A02374EFE0174ED518DEA /* FlatField-dummy.m in Sources */,
-				BFAADE87210E8A95009702C0 /* FlatFieldConfig.swift in Sources */,
-				BFAADE85210E8A95009702C0 /* FlatField.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		C4DAD3CF9B95C759A4EE0F0ED99B0FFC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				45A0B918D24FBA35DA92720E9866B550 /* Pods-FlatField_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9A53FEFD25362B93F48D6A14FFF36F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8528545809B4CA77EE5DE23A456C5B1 /* FlatField-dummy.m in Sources */,
+				FCA1247E8AFB1C0A7A81B1238A99878E /* FlatField.swift in Sources */,
+				26241DB2B403D7F7EFCA9D99B0A8D26A /* FlatFieldConfig.swift in Sources */,
+				8A8E73BB131CDFE97617056B296EBB64 /* FlatFieldDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -378,7 +378,7 @@
 		47C4BEEFF443E72513CB0F857ED368A7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = FlatField;
-			target = 312D2847A66D0361687C3EFF018A7615 /* FlatField */;
+			target = 8BB5823170E76BBDF9700A0E3A907633 /* FlatField */;
 			targetProxy = EE942188290A356498C9EC900EBEDAA8 /* PBXContainerItemProxy */;
 		};
 		FED5EB71D6054187A39BE4B1EA6C4947 /* PBXTargetDependency */ = {
@@ -390,6 +390,38 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		2EFD9AABD2BC1E16A91438162F7EE094 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A13E46993C60FE4596EB429F0786DA4B /* FlatField.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FlatField/FlatField-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FlatField/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FlatField/FlatField.modulemap";
+				PRODUCT_MODULE_NAME = FlatField;
+				PRODUCT_NAME = FlatField;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		5F5F14C90F89C249E372F4E67E64E105 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 96A96974E3B49B9ABC04614BC151E6DA /* Pods-FlatField_Example.release.xcconfig */;
@@ -425,9 +457,9 @@
 			};
 			name = Release;
 		};
-		62DA2571225E7374FC5D59178508B4D5 /* Release */ = {
+		60E5E5CDD844FA30BEC79116EFE4E3CE /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B2C72390720002A45BE45158E7EE0C91 /* FlatField.xcconfig */;
+			baseConfigurationReference = A13E46993C60FE4596EB429F0786DA4B /* FlatField.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -441,7 +473,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/FlatField/FlatField-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/FlatField/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/FlatField/FlatField.modulemap";
 				PRODUCT_MODULE_NAME = FlatField;
@@ -589,38 +621,6 @@
 			};
 			name = Debug;
 		};
-		90329C964785FC9C4C518F6C9CEB0AF0 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = B2C72390720002A45BE45158E7EE0C91 /* FlatField.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/FlatField/FlatField-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/FlatField/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/FlatField/FlatField.modulemap";
-				PRODUCT_MODULE_NAME = FlatField;
-				PRODUCT_NAME = FlatField;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		B42B54097A876E8A982CBF5DAA91B1AB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -734,11 +734,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		620C5D562E2DC5CFA526E0F5F9009103 /* Build configuration list for PBXNativeTarget "FlatField" */ = {
+		350FF36D8BCC702DE9286DD810B22F36 /* Build configuration list for PBXNativeTarget "FlatField" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				90329C964785FC9C4C518F6C9CEB0AF0 /* Debug */,
-				62DA2571225E7374FC5D59178508B4D5 /* Release */,
+				2EFD9AABD2BC1E16A91438162F7EE094 /* Debug */,
+				60E5E5CDD844FA30BEC79116EFE4E3CE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
