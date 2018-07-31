@@ -177,14 +177,21 @@ extension FlatField: UITextFieldDelegate {
         delegate?.editingBegan(self)
         
         textField.tintColor = cursorColor
-        underlineHeightConstraint.constant += thicknessChange
+        underlineHeightConstraint.constant = underlineThickness + thicknessChange
     }
     
     public func textFieldDidEndEditing(_ sender: UITextField) {
-        underlineHeightConstraint.constant -= thicknessChange
+        delegate?.editingEnded(self)
+        
+        underlineHeightConstraint.constant = underlineThickness - thicknessChange
     }
     
-    public func textFieldValueChanged(_ sender: UITextField) {
+    public func textField(_ textField: UITextField,
+                          shouldChangeCharactersIn range: NSRange,
+                          replacementString string: String) -> Bool {
+        
         delegate?.textChanged(self)
+        
+        return true
     }
 }
