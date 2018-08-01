@@ -39,10 +39,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		01917CAB3C387F4D7CFF6C696C90A326 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		01917CAB3C387F4D7CFF6C696C90A326 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		023266BF78981093677842A7B4733CA7 /* Pods-FlatField_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FlatField_Tests-umbrella.h"; sourceTree = "<group>"; };
 		046767BC927DD8731B830BBB47701CD3 /* Pods-FlatField_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FlatField_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		05CD252B2FBE7890EC5785C4704929E3 /* Pods_FlatField_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FlatField_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		05CD252B2FBE7890EC5785C4704929E3 /* Pods_FlatField_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_FlatField_Tests.framework; path = "Pods-FlatField_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		10E1F8174BA38BD55B5E239486F587EC /* Pods-FlatField_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FlatField_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		13F90FCD5FCC9B89B1C58C6138333F1C /* Pods-FlatField_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FlatField_Example-umbrella.h"; sourceTree = "<group>"; };
 		158AC48FE234E104800200CE8CE1A880 /* Pods-FlatField_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FlatField_Tests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -51,9 +51,9 @@
 		2BF2CDE83DD3C7EB5222D490F6B13CD9 /* Pods-FlatField_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FlatField_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		365217D3828CA2EEEEB6AE3EEE21696C /* Pods-FlatField_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FlatField_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		38DBC8824C0E909997D691E350D18D3D /* Pods-FlatField_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FlatField_Tests-dummy.m"; sourceTree = "<group>"; };
-		3964234525E0CDBAA7A2815C7C7AF6C8 /* FlatField.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = FlatField.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		3964234525E0CDBAA7A2815C7C7AF6C8 /* FlatField.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = FlatField.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		3F4EB6AC600429176314F52CCE1F240E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		40424E667BD21B6CD7EB522F2E6FE628 /* FlatField.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FlatField.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		40424E667BD21B6CD7EB522F2E6FE628 /* FlatField.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FlatField.framework; path = FlatField.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		578CCD4FF0ABADD6CAA348BA0D849F87 /* FlatField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FlatField.swift; path = FlatField/Classes/FlatField.swift; sourceTree = "<group>"; };
 		57D0D73F55A4C3CC66127FAB8DB57FED /* Pods-FlatField_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FlatField_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
@@ -62,16 +62,16 @@
 		745ADD37F28FD0030091FA4FB9D212DF /* Pods-FlatField_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FlatField_Example-frameworks.sh"; sourceTree = "<group>"; };
 		777E32FBF92739EA0B816A916F3FE2BA /* FlatFieldConfig.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FlatFieldConfig.swift; path = FlatField/Classes/FlatFieldConfig.swift; sourceTree = "<group>"; };
 		80C0C551BC4551E0A5F29A1C0CC7D401 /* FlatField-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FlatField-umbrella.h"; sourceTree = "<group>"; };
-		8D90CD3214BAC41787403612BE7BD122 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		8D90CD3214BAC41787403612BE7BD122 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		8E0732CF73FD28E2610FBF13B28DF609 /* FlatFieldDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FlatFieldDelegate.swift; path = FlatField/Classes/FlatFieldDelegate.swift; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		96A96974E3B49B9ABC04614BC151E6DA /* Pods-FlatField_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FlatField_Example.release.xcconfig"; sourceTree = "<group>"; };
 		9A98D2B57AD39754F9AF8C58B7991BF5 /* Pods-FlatField_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FlatField_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		A13E46993C60FE4596EB429F0786DA4B /* FlatField.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FlatField.xcconfig; sourceTree = "<group>"; };
 		A6258B9390CCE247CC6AF0FA2ED16EE6 /* FlatField-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FlatField-dummy.m"; sourceTree = "<group>"; };
 		ACC30DC4EA4641739271537E5557E601 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C1520FCEDE44A47685D40EF0C0E42E1D /* Pods-FlatField_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FlatField_Tests.modulemap"; sourceTree = "<group>"; };
-		C8A8CEF319FFECAC46EAA801266338D8 /* Pods_FlatField_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FlatField_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C8A8CEF319FFECAC46EAA801266338D8 /* Pods_FlatField_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_FlatField_Example.framework; path = "Pods-FlatField_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE00C8DE42E9C66AF216821DEE71E36F /* FlatField-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FlatField-prefix.pch"; sourceTree = "<group>"; };
 		DEBF7700A962A9F77ECFF781CEEC1F05 /* FlatField.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FlatField.modulemap; sourceTree = "<group>"; };
 		F9233B5806E617EC3A5AACD749F30F54 /* Pods-FlatField_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FlatField_Example-dummy.m"; sourceTree = "<group>"; };
@@ -199,8 +199,8 @@
 			isa = PBXGroup;
 			children = (
 				578CCD4FF0ABADD6CAA348BA0D849F87 /* FlatField.swift */,
-				8E0732CF73FD28E2610FBF13B28DF609 /* FlatFieldDelegate.swift */,
 				777E32FBF92739EA0B816A916F3FE2BA /* FlatFieldConfig.swift */,
+				8E0732CF73FD28E2610FBF13B28DF609 /* FlatFieldDelegate.swift */,
 				117A12F024F3464D21E8DBCB24399F05 /* Pod */,
 				8CC205CEE6A1732CB0167D181C3DC0D4 /* Support Files */,
 			);
