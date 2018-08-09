@@ -1,6 +1,6 @@
 {
   "name": "FlatField",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "summary": "A flat text input field for iOS.",
   "description": "A flat text input field for iOS useful for those who want a sleeker-looking input field.",
   "homepage": "https://github.com/educrate/flat-field-ios",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/educrate/flat-field-ios.git",
-    "tag": "0.0.6"
+    "tag": "0.0.7"
   },
   "platforms": {
     "ios": "9.3"
